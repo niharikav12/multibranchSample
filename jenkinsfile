@@ -1,0 +1,22 @@
+pipeline
+{
+    agent any
+    stages{
+        stage("Master"){
+            steps{
+               sh echo "This is master branch"
+            }
+        }
+	stage("sprint1"){
+            steps{
+               sh echo "Sprint1 application..."
+            }
+        }
+	stage("dev"){
+            steps{
+               sh echo "Welcome to Jenkins"
+            }
+        }
+
+    }
+}
