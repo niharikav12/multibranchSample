@@ -12,9 +12,9 @@ pipeline
                sh echo "this is a sprint1 branch..."
             }
         }
-	stage("dev"){
+	stage("sprint2"){
             steps{
-               sh echo "Welcome to Jenkins"
+               sh echo "this is a sprint2 branch"
             }
         }
 
